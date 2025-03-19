@@ -1,0 +1,1 @@
+make sure that you document all the steps you do and execute in an issue that you create and update (using GitHub MCP Server). I want all steps to be documented in the same issue.
