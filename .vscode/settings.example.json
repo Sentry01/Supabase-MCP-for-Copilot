@@ -1,0 +1,27 @@
+{
+  "mcp": {
+    "servers": {
+      "mcp-server-supabase": {
+        "command": "node",
+        "args": [
+          "${workspaceFolder}/src/index.js"
+        ],
+        "env": {
+          "SUPABASE_URL": "https://your-project-ref.supabase.co",
+          "SUPABASE_SERVICE_KEY": "your-service-key",
+          "ALLOWED_QUERY_TYPES": "SELECT",
+          "PORT": "3000",
+          "HOST": "localhost",
+          "LOG_LEVEL": "info"
+        }
+      }
+    },
+    "inputs": [],
+    "outputChannel": "MCP Supabase"
+  },
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.rulers": [80, 100],
+  "files.trimTrailingWhitespace": true
+}
